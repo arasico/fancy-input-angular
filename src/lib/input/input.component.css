@@ -131,6 +131,8 @@ input[type="number"]:focus {
 }
 
 
+
+
 .input-label {
   position: relative;
   width: 100%;
@@ -155,11 +157,20 @@ input[type="number"]:focus {
   border-radius: 5px;
 }
 
+.input-label .input-img-div {
+    width: 39px;
+  height: 34px;
+  position: absolute; 
+  top: 7px;
+  left: 1px;
+
+}
+
 .input-label input {
   -webkit-appearance: none;
   width: 100%;
   font-family: inherit;
-  padding: 12px 5px 12px 0px;
+  padding: 12px 12px 12px 45px;
   height: 12px;
   border: 1px solid #E7E7E7;
   text-align: right;
@@ -181,14 +192,7 @@ input[type="number"]:focus {
   user-select: none;
 }
 
-.input-img-div {
-  width: 39px;
-  height: 34px;
-  position: absolute;
-  background: #FFFFFF;
-  top: 7px;
-  left: 1px;
-}
+ 
 
 .input-label img {
   width: 25px;
@@ -232,9 +236,11 @@ input[type="number"]:focus {
 }
 
 
-input:disabled {
+input:disabled , input:disabled   + *  {
   background: #dddddd !important;
 }
+ 
+ 
 
 .input-label input:disabled + .span-label {
   background: #dddddd !important;

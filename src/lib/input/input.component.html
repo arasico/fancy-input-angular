@@ -1,6 +1,8 @@
 <div [formGroup]="nameForm" [className]="error ? '' : 'inputBox'">
   <div class="input-label">
-    <div *ngIf="src" (click)="handleFocus()" class="input-img-div"><img [src]="src"></div>
+    <span class="input-img-div" *ngIf="src" (click)="handleFocus()" >
+      <img [src]="src">
+    </span>
     <input #input
            [attr.id]="id"
            [formControlName]="name"
