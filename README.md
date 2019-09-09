@@ -81,8 +81,8 @@ export class AppComponent implements OnInit {
     type="text"
     error=""
     placeholder="نام خانوادگی"
-    label="وارد نمودن نام خانوادگی اجباری می باشد"
-></fancy-input-angular>
+    label="وارد نمودن نام خانوادگی اجباری می باشد">
+    </fancy-input-angular>
 ```
 
 ## Contributing
@@ -90,6 +90,6 @@ See [contributing guide](.github/CONTRIBUTING.md)
 
 <a name="license"></a>
 ## License
-Developed by Yaser Darzi & Aras Emami and licensed under the Arasico open source license.
+Developed by [Yaser Darzi](https://github.com/yaserdarzi) & [Aras Emami](https://github.com/arasemami) and licensed under the Arasico open source license.
 
 
