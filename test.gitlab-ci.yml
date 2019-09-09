@@ -1,0 +1,17 @@
+image: node:latest
+stages:
+  - production
+before_script:
+  - npm install
+cache:
+  paths:
+    - node_modules/
+production:
+  stage: production
+  tags:
+    - master
+  script:
+    - chmod -R 777 publish.sh
+    - ./publish.sh
+  only:
+    - master

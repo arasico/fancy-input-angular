@@ -1,0 +1,22 @@
+<form [formGroup]="myFormFather">
+  <zino-input
+    id="test"
+    name="test"
+    [nameForm]="myFormFather"
+    disabled="false"
+    value=""
+    src="https://img.icons8.com/ios/50/000000/reading-confirmation.png"
+    type="text"
+    error="لطفا خطلا خود را وارد نمایید"
+    placeholder="نام و نام خانوادگی"
+    label="جهت مدیریت برنامه لطفا نام و نام خانوادگی را وارد نمایید"
+  ></zino-input>
+</form>
+
+<div>
+  {{myFormFather.value | json}}
+</div>
+
+
+
+

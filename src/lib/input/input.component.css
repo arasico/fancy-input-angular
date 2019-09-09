@@ -1,0 +1,310 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../../assets/fonts/iransans/eot/IRANSansWeb_Bold.eot');
+  src: url('../../assets/fonts/iransans/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../assets/fonts/iransans/woff2/IRANSansWeb_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../assets/fonts/iransans/woff/IRANSansWeb_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../assets/fonts/iransans/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../assets/fonts/iransans/eot/IRANSansWeb_Medium.eot');
+  src: url('../../assets/fonts/iransans/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../assets/fonts/iransans/woff2/IRANSansWeb_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../assets/fonts/iransans/woff/IRANSansWeb_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../assets/fonts/iransans/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../../assets/fonts/iransans/eot/IRANSansWeb_Light.eot');
+  src: url('../../assets/fonts/iransans/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../assets/fonts/iransans/woff2/IRANSansWeb_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../assets/fonts/iransans/woff/IRANSansWeb_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../assets/fonts/iransans/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url('../../assets/fonts/iransans/eot/IRANSansWeb_UltraLight.eot');
+  src: url('../../assets/fonts/iransans/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../assets/fonts/iransans/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../assets/fonts/iransans/woff/IRANSansWeb_UltraLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../assets/fonts/iransans/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../assets/fonts/iransans/eot/IRANSansWeb.eot');
+  src: url('../../assets/fonts/iransans/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../assets/fonts/iransans/woff2/IRANSansWeb.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../assets/fonts/iransans/woff/IRANSansWeb.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../assets/fonts/iransans/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSansfa;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../../assets/fonts/iransans/eot/IRANSansWebFaNum_Bold.eot');
+  src: url('../../assets/fonts/iransans/eot/IRANSansWebFaNum_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../assets/fonts/iransans/woff2/IRANSansWebFaNum_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../assets/fonts/iransans/woff/IRANSansWebFaNum_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../assets/fonts/iransans/ttf/IRANSansWebFaNum_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSansfa;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../assets/fonts/iransans/eot/IRANSansWebFaNum_Medium.eot');
+  src: url('../../assets/fonts/iransans/eot/IRANSansWebFaNum_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../assets/fonts/iransans/woff2/IRANSansWebFaNum_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../assets/fonts/iransans/woff/IRANSansWebFaNum_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../assets/fonts/iransans/ttf/IRANSansWebFaNum_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSansfa;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../../assets/fonts/iransans/eot/IRANSansWebFaNum_Light.eot');
+  src: url('../../assets/fonts/iransans/eot/IRANSansWebFaNum_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../assets/fonts/iransans/woff2/IRANSansWebFaNum_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../assets/fonts/iransans/woff/IRANSansWebFaNum_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../assets/fonts/iransans/ttf/IRANSansWebFaNum_Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSansfa;
+  font-style: normal;
+  font-weight: 200;
+  src: url('../../assets/fonts/iransans/eot/IRANSansWebFaNum_UltraLight.eot');
+  src: url('../../assets/fonts/iransans/eot/IRANSansWebFaNum_UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../assets/fonts/iransans/woff2/IRANSansWebFaNum_UltraLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../assets/fonts/iransans/woff/IRANSansWebFaNum_UltraLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../assets/fonts/iransans/ttf/IRANSansWebFaNum_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSansfa;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../assets/fonts/iransans/eot/IRANSansWebFaNum.eot');
+  src: url('../../assets/fonts/iransans/eot/IRANSansWebFaNum.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../assets/fonts/iransans/woff2/IRANSansWebFaNum.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../assets/fonts/iransans/woff/IRANSansWebFaNum.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../assets/fonts/iransans/ttf/IRANSansWebFaNum.ttf') format('truetype');
+}
+
+
+* {
+  font-family: IRANSansfa;
+}
+
+.inputBox {
+  /* margin: 35px 0px; */
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  border: 0;
+}
+
+input:required {
+  box-shadow: none;
+}
+
+input:invalid {
+  box-shadow: none;
+  -webkit-appearance: none;
+  margin: 0;
+  border: 0;
+}
+
+
+input[type="number"] {
+  -moz-appearance: textfield !important;
+}
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: textfield !important;
+}
+
+.input-label-bottom {
+  font-size: 10px;
+  color: #666666;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+
+}
+
+.handler-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  direction: rtl;
+}
+
+
+.input-label {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+
+}
+
+.input-label .span-label {
+  position: absolute;
+  top: 12px;
+  right: 7px;
+  font-size: 8px;
+  color: #757575;
+  font-size: 14px;
+  z-index: 1;
+  transition: all .3s cubic-bezier(0.000, 0.555, 0.025, 0.985);
+  background-color: #fff;
+  padding: 0px 3px;
+  user-select: none;
+  border-radius: 5px;
+}
+
+.input-label input {
+  -webkit-appearance: none;
+  width: 100%;
+  font-family: inherit;
+  padding: 12px 5px 12px 0px;
+  height: 12px;
+  border: 1px solid #E7E7E7;
+  text-align: right;
+  font-size: 14px;
+  background: none;
+  border-radius: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  transition: all .3s cubic-bezier(0.000, 0.555, 0.025, 0.985);
+}
+
+
+.input-label input:not(:placeholder-shown) + .span-label, .input-label input:focus + .span-label {
+  color: #757575;
+  top: -8px;
+  font-size: 10px;
+  z-index: 2;
+  transition: all .3s cubic-bezier(0.000, 0.555, 0.025, 0.985);
+  user-select: none;
+}
+
+.input-img-div {
+  width: 39px;
+  height: 34px;
+  position: absolute;
+  background: #FFFFFF;
+  top: 7px;
+  left: 1px;
+}
+
+.input-label img {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  color: #757575;
+  font-size: 14px;
+  z-index: 1;
+  transition: all .3s cubic-bezier(0.000, 0.555, 0.025, 0.985);
+  padding: 0px 3px;
+  user-select: none;
+  border-radius: 5px;
+
+
+}
+
+.input-error-text {
+  font-size: 12px;
+  color: #FFFFFF;
+  user-select: none;
+  z-index: 1;
+  background-color: #d87373;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 5px 15px;
+  float: right;
+  text-align: right;
+}
+
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+input:disabled {
+  background: #dddddd !important;
+}
+
+.input-label input:disabled + .span-label {
+  background: #dddddd !important;
+}
+
+@-webkit-keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+    transform: scale3d(.97, .97, .97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+    transform: scale3d(.97, .97, .97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+

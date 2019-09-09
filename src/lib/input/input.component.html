@@ -1,0 +1,21 @@
+<div [formGroup]="nameForm" [className]="error ? '' : 'inputBox'">
+  <div class="input-label">
+    <div *ngIf="src" (click)="handleFocus()" class="input-img-div"><img [src]="src"></div>
+    <input #input
+           [attr.id]="id"
+           [formControlName]="name"
+           [attr.type]="type"
+           placeholder=" "
+           autocorrect="off"
+    >
+    <span class="span-label" (click)="handleFocus()">{{placeholder}}</span>
+  </div>
+  <div class="handler-container">
+    <p class="input-label-bottom">{{label}}</p>
+    <span class="input-error-text bounceIn" *ngIf="error">{{error}}</span>
+  </div>
+</div>
+
+
+<!--example using-->
+<!--<zino-input id="idName" formControlName="name" value="Value name" error="error handeler" placeholder="label and placeholder text "></zino-input>-->
