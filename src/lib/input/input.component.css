@@ -128,21 +128,20 @@ input[type="number"]:focus {
   flex-direction: row;
   justify-content: space-between;
   direction: rtl;
+  padding: 4px 0;
 }
 
 
 .input-label {
   position: relative;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 5px 0;
+  display: flex;  
 
 }
 
 .input-label .span-label {
   position: absolute;
-  top: 12px;
+  top: 8px;
   right: 7px;
   font-size: 8px;
   color: #757575;
@@ -159,7 +158,7 @@ input[type="number"]:focus {
   -webkit-appearance: none;
   width: 100%;
   font-family: inherit;
-  padding: 12px 5px 12px 0px;
+  padding: 12px 5px 12px 40px;
   height: 12px;
   border: 1px solid #E7E7E7;
   text-align: right;
@@ -182,25 +181,30 @@ input[type="number"]:focus {
 }
 
 .input-img-div {
-  width: 39px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   position: absolute;
-  background: #FFFFFF;
-  top: 7px;
+  background: transparent; 
   left: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 1px;
+  border-radius: 10px 0 0 10px;
 }
 
 .input-label img {
   width: 25px;
-  height: 25px;
-  position: absolute;
-  top: 5px;
+  height: 25px; 
   left: 7px;
   color: #757575;
   font-size: 14px;
   z-index: 1;
   transition: all .3s cubic-bezier(0.000, 0.555, 0.025, 0.985);
   padding: 0px 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   border-radius: 5px;
 
