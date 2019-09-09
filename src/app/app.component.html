@@ -5,17 +5,45 @@
     [nameForm]="myFormFather"
     disabled=""
     value=""
-    src="https://img.icons8.com/ios/50/000000/reading-confirmation.png"
+    src="https://image.flaticon.com/icons/svg/74/74472.svg"
     type="text"
     error="لطفا خطلا خود را وارد نمایید"
-    placeholder="نام و نام خانوادگی"
-    label="جهت مدیریت برنامه لطفا نام و نام خانوادگی را وارد نمایید"
+    placeholder="نام"
+    label="وارد نمودن نام اجباری می باشد"
   ></fancy-input-angular>
+
+  <fancy-input-angular
+  id="test"
+  name="test"
+  [nameForm]="myFormFather"
+  disabled=""
+  value=""
+  src="https://image.flaticon.com/icons/svg/74/74472.svg"
+  type="text"
+  error=""
+  placeholder="نام خانوادگی"
+  label="وارد نمودن نام خانوادگی اجباری می باشد"
+></fancy-input-angular>
+
+<fancy-input-angular
+id="test"
+name="test"
+[nameForm]="myFormFather"
+disabled=""
+value=""
+src="https://image.flaticon.com/icons/svg/126/126327.svg"
+type="text"
+error=""
+placeholder="نام پدر"
+label="وارد نمودن نام پدر اجباری می باشد"
+></fancy-input-angular>
 </form>
 
-<div>
+
+
+<!-- <div>
   {{myFormFather.value | json}}
-</div>
+</div> -->
 
 
 

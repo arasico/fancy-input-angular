@@ -128,7 +128,7 @@ input[type="number"]:focus {
   flex-direction: row;
   justify-content: space-between;
   direction: rtl;
-  padding-top: 4px;
+  padding: 4px 0;
 }
 
 
