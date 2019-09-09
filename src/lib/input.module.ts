@@ -9,5 +9,5 @@ import {CommonModule} from '@angular/common';
   imports: [ReactiveFormsModule, CommonModule],
   exports: [InputComponent]
 })
-export class ZinoInputModule {
+export class FancyInputAngularModule {
 }

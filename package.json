@@ -1,6 +1,6 @@
 {
-  "name": "zino-input",
-  "version": "1.0.5",
+  "name": "fancy-input-angular",
+  "version": "1.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -45,5 +45,19 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arasico/fancy-input-angular.git"
+  },
+  "keywords": [
+    "input",
+    "angular"
+  ],
+  "author": "Yaser Darzi <yaser.darzi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arasico/fancy-input-angular/issues"
+  },
+  "homepage": "https://github.com/arasico/fancy-input-angular#readme"
 }

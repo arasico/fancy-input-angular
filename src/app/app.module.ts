@@ -4,7 +4,7 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {ZinoInputModule} from '../lib/public_api';
+import {FancyInputAngularModule} from '../lib/public_api';
 import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
@@ -14,7 +14,7 @@ import {ReactiveFormsModule} from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ZinoInputModule,
+    FancyInputAngularModule,
     ReactiveFormsModule
   ],
   providers: [],

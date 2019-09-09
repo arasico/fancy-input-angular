@@ -3,7 +3,7 @@ import {FormBuilder, FormControl, FormGroup,} from '@angular/forms';
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'zino-input',
+  selector: 'fancy-input-angular',
   templateUrl: './input.component.html',
   styleUrls: ['./input.component.css']
 })
