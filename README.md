@@ -1,29 +1,95 @@
 # Fancy Input Reactive Forms Angular
 
+![alt text](https://raw.githubusercontent.com/arasico/fancy-input-angular/style-review/src/assets/img/sample.png "Fancy Input Reactive Forms Angular ")
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+ 
 
-## Development server
+> AngularJS Fancy input directive
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* [Overview](#overview)
+* [Demo](#)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](.github/CONTRIBUTING.md)
+* [License](#license)
 
-## Code scaffolding
+<a name="overview"></a>
+## Overview
+The number-input is an angular directive which provides text validation, parsing and formatting capabilities
+on any HTML element.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
+## Demo
+[Live Demo](https://github.io/)
 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<a name="installation"></a>
+## Installation
+Run npm install in your project as follows:
 
-## Running unit tests
+```sh
+npm i fancy-input-angular --save
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<a name="usage"></a>
+## Usage
+In order to use the fancy-input directive you first must add the relevant dependencies:
 
-## Running end-to-end tests
+Next you must define it as a dependency in your main angular module as follows:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+in app module.js
 
-## Further help
+```js
+import { FancyInputAngularModule } from 'fancy-input-angular';
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+@NgModule({
+  imports: [
+    // ...
+    FancyInputAngularModule
+  ]
+})
+```
+
+in ts component beacuse is reactive form 
+```ts
+export class AppComponent implements OnInit {
+  myFormFather: FormGroup;
+
+  constructor(private fb: FormBuilder) {
+  }
+
+  ngOnInit() {
+    this.createForm();
+  }
+
+  createForm() {
+    this.myFormFather = this.fb.group({});
+  }
+}
+
+```
+
+```html
+<fancy-input-angular
+    id="lastname"
+    name="lastname"
+    [nameForm]="myFormFather"
+    disabled=""
+    value=""
+    src="https://image.flaticon.com/icons/svg/74/74472.svg"
+    type="text"
+    error=""
+    placeholder="نام خانوادگی"
+    label="وارد نمودن نام خانوادگی اجباری می باشد"
+></fancy-input-angular>
+```
+
+## Contributing
+See [contributing guide](.github/CONTRIBUTING.md)
+
+<a name="license"></a>
+## License
+Developed by Yaser Darzi & Aras Emami and licensed under the Arasico open source license.
+
+
