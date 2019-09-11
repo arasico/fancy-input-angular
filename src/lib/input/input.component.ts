@@ -35,6 +35,9 @@ export class InputComponent implements OnInit {
   }
 
   createForm() {
-    this.nameForm.addControl(this.name, new FormControl({value: this.value, disabled: this.disabled}));
+    this.nameForm.addControl(this.name, new FormControl({
+      value: this.value,
+      disabled: this.disabled
+    }));
   }
 }
