@@ -1,5 +1,5 @@
-import {Component, Input, OnInit, ElementRef, ViewChild} from '@angular/core';
-import {FormBuilder, FormControl, FormGroup,} from '@angular/forms';
+import { Component, Input, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   // tslint:disable-next-line:component-selector
