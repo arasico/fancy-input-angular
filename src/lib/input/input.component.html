@@ -1,4 +1,4 @@
-<div [formGroup]="nameForm" [className]="error ? '' : 'inputBox'">
+<form [formGroup]="nameForm" [className]="error ? '' : 'inputBox'"  autocomplete="off">
   <div class="input-label">
     <div *ngIf="src" (click)="handleFocus()" class="input-img-div"><img [src]="src"></div>
     <input #input
@@ -6,7 +6,8 @@
            [formControlName]="name"
            [attr.type]="type"
            placeholder=" "
-           autocorrect="off"
+           autocorrect="off" 
+           autocomplete="off"
     >
     <span class="span-label" (click)="handleFocus()">{{placeholder}}</span>
   </div>
@@ -14,7 +15,7 @@
     <p class="input-label-bottom">{{label}}</p>
     <span class="input-error-text bounceIn" *ngIf="error">{{error}}</span>
   </div>
-</div>
+</form>
 
 
 <!--example using-->

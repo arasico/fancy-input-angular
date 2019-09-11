@@ -1,4 +1,4 @@
-<form [formGroup]="myFormFather">
+<form [formGroup]="myFormFather"  autocomplete="off">
   <fancy-input-angular
     id="name"
     name="name"
@@ -10,6 +10,7 @@
     error="لطفا خطلا خود را وارد نمایید"
     placeholder="نام"
     label="وارد نمودن نام اجباری می باشد"
+    autocomplete="off"
   ></fancy-input-angular>
 
   <fancy-input-angular
@@ -23,6 +24,7 @@
     error=""
     placeholder="نام خانوادگی"
     label="وارد نمودن نام خانوادگی اجباری می باشد"
+    autocomplete="off"
 ></fancy-input-angular>
 
 <fancy-input-angular
